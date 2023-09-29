@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script stop another script running in another terminal (need -f to find pid)
+
+stop "$(pgrep -f "4-to_infinity_and_beyond")"
